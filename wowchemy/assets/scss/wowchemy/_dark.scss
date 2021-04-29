@@ -139,7 +139,7 @@ body.dark,
 
 .dark .btn-primary,
 .dark .btn.btn-primary.active {
-  color: rgba(255, 255, 255, 0.5);
+  color: initial;
 }
 
 .dark .docs-sidebar .nav > li:not(.active) > a {
