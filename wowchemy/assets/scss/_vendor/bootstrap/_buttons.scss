@@ -80,26 +80,26 @@ fieldset:disabled a.btn {
 //
 
 // Make a button look and behave like a link
-.btn-link {
-  font-weight: $font-weight-normal;
-  color: $link-color;
-  text-decoration: $link-decoration;
-
-  @include hover() {
-    color: $link-hover-color;
-    text-decoration: $link-hover-decoration;
-  }
-
-  &:focus,
-  &.focus {
-    text-decoration: $link-hover-decoration;
-  }
-
-  &:disabled,
-  &.disabled {
-    color: $btn-link-disabled-color;
-    pointer-events: none;
-  }
+//.btn-link {
+// font-weight: $font-weight-normal;
+//  color: $link-color;
+//  text-decoration: $link-decoration;
+//
+//  @include hover() {
+//    color: $link-hover-color;
+//    text-decoration: $link-hover-decoration;
+//  }
+//
+//  &:focus,
+//  &.focus {
+//    text-decoration: $link-hover-decoration;
+//  }
+//
+//  &:disabled,
+//  &.disabled {
+//    color: $btn-link-disabled-color;
+//    pointer-events: none;
+//  }
 
   // No need for an active state here
 }
