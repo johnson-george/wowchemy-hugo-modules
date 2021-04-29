@@ -15,6 +15,7 @@ $sta-font-nav: "{{ $scr.Get "nav_font" }}";
 $sta-font-mono: "{{ $scr.Get "mono_font" }}";
 
 $sta-primary: {{ $scr.Get "primary" }};
+$sta-dark-primary: {{ $scr.Get "dark_primary" }};
 $sta-primary-light: lighten($sta-primary, $sta-lighten-percentage);
 $sta-primary-dark: darken($sta-primary, $sta-darken-percentage);
 
