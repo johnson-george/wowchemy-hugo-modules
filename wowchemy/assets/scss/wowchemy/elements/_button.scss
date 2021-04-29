@@ -5,6 +5,7 @@
 .btn {
   padding: 0.5rem;
   font-size: 0.8rem;
+  background-color: $sta-dark-primary-light;
   line-height: 0.9; // Anything less and multiline button text may overlap.
   border-radius: 0.3rem;
 }
