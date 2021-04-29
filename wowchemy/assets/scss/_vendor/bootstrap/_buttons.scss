@@ -82,8 +82,7 @@ fieldset:disabled a.btn {
 // Make a button look and behave like a link
 .btn-link {
   font-weight: $font-weight-normal;
-//  color: $link-color;
-  color: $sta-home-section-odd;
+  color: $link-color;
   text-decoration: $link-decoration;
 
   @include hover() {
@@ -104,7 +103,6 @@ fieldset:disabled a.btn {
 
   // No need for an active state here
 }
-
 
 //
 // Button Sizes
