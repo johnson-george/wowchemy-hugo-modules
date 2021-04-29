@@ -58,3 +58,19 @@
 .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem $sta-primary-light;
 }
+
+.dark .btn-toolbar .btn.btn-primary:hover,
+.dark .btn-toolbar .btn.btn-primary:focus {
+  background-color: $sta-dark-primary-light !important;
+}
+
+.dark .btn-toolbar .btn.btn-primary:active,
+.dark .btn-toolbar .btn.btn-primary.active {
+  background-color: $sta-dark-primary-dark !important;
+}
+
+.darl.btn-primary:not(:disabled):not(.disabled).active:focus,
+.dark.btn-primary:not(:disabled):not(.disabled):active:focus,
+.dark.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem $sta-dark-primary-light;
+}
