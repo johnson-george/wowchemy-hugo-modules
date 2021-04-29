@@ -18,6 +18,8 @@ $sta-primary: {{ $scr.Get "primary" }};
 $sta-primary-light: lighten($sta-primary, $sta-lighten-percentage);
 $sta-primary-dark: darken($sta-primary, $sta-darken-percentage);
 $sta-dark-primary: {{ $scr.Get "dark_link" }};
+$sta-dark-primary-light: lighten($sta-dark-primary, $sta-lighten-percentage);
+$sta-dark-primary-dark: darken($sta--dark-primary, $sta-darken-percentage);
 
 $sta-link: {{ $scr.Get "link" }};
 $sta-link-hover: {{ $scr.Get "link_hover" }};
