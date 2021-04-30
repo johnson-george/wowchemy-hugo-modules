@@ -55,7 +55,6 @@
 
 .btn-toolbar .btn.btn-primary:active,
 .btn-toolbar .btn.btn-primary.active {
-  color: $body-color;
   background-color: $sta-primary-dark !important;
 }
 
@@ -72,6 +71,7 @@
 
 .dark .btn-toolbar .btn.btn-primary:active,
 .dark .btn-toolbar .btn.btn-primary.active {
+  color: $body-color;
   background-color: $sta-dark-primary-dark !important;
 }
 
