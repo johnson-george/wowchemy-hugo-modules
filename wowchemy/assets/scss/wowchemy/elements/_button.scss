@@ -55,6 +55,7 @@
 
 .btn-toolbar .btn.btn-primary:active,
 .btn-toolbar .btn.btn-primary.active {
+  color: $body-color;
   background-color: $sta-primary-dark !important;
 }
 
