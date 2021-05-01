@@ -29,11 +29,11 @@
  *  Toolbar Buttons
  **************************************************/
  
- .btn-primary {
+.btn-primary .btn {
     @include button-variant($sta-primary, $sta-primary);
 }
 
-.dark .btn-primary {
+.dark .btn-primary .btn {
     @include button-variant($sta-dark-primary, $sta-dark-primary);
 }
 
