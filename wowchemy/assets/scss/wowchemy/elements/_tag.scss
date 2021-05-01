@@ -28,6 +28,7 @@ a.badge:hover {
 }
 
 .tag-cloud a {
+  color: $sta-primary;
   display: inline-block;
   position: relative;
   margin: 8px 10px;
@@ -35,6 +36,10 @@ a.badge:hover {
   transition-duration: 0.2s;
   transition-property: transform;
   transition-timing-function: ease-out;
+}
+
+.dark .tag-cloud a {
+  color: $sta-dark-primary;
 }
 
 .tag-cloud a:active,
