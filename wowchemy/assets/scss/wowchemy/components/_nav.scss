@@ -67,7 +67,7 @@
     font-size: #{$sta-font-size-small}px;
   }
   
-  .dropdown-menu ~ .nav-link {
+  .dropdown-menu:hover ~ .nav-link {
     color: rgb(255,0,0);
   }
 
