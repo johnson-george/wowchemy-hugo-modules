@@ -29,13 +29,13 @@
  *  Toolbar Buttons
  **************************************************/
  
-.btn-primary .btn {
-    @include button-variant($sta-dark-primary, $sta-dark-primary);
-}
-
-.dark .btn-primary .btn {
-    @include button-variant($sta-dark-primary, $sta-dark-primary);
-}
+//.btn-primary .btn {
+//    @include button-variant($sta-dark-primary, $sta-dark-primary);
+//}
+//
+//.dark .btn-primary .btn {
+//   @include button-variant($sta-dark-primary, $sta-dark-primary);
+//}
 
 .btn-toolbar .btn {
   font-size: 0.9rem;
