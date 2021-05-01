@@ -148,6 +148,10 @@ article .article-metadata {
 
 .dark .article-metadata {
   color: rgba(255, 255, 255, 0.54);
+  
+  a:hover {
+    color: $sta-dark-primary;
+  }
 }
 
 .stream-meta.article-metadata {

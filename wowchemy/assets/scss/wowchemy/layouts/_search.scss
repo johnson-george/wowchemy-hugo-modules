@@ -105,6 +105,11 @@
   box-shadow: 0 0 0 0.2rem $sta-primary-light;
 }
 
+.dark .form-control:focus {
+  border-color: $sta-dark-primary;
+  box-shadow: 0 0 0 0.2rem $sta-dark-primary-light;
+}
+
 // Search result items
 
 .search-hit em {
