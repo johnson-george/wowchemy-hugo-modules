@@ -74,6 +74,23 @@ fieldset:disabled a.btn {
 //  }
 //}
 
+.btn-primary {
+    @include button-variant($sta-primary, $sta-primary);
+}
+  
+.dark .btn-primary {
+    @include button-variant($sta-dark-primary, $sta-dark-primary);
+}
+
+.btn-outline-primary {
+    @include button-outline-variant($sta-primary);
+}
+
+.dark .btn-outline-primary {
+    @include button-outline-variant($sta-dark-primary);
+}
+
+
 
 //
 // Link buttons
