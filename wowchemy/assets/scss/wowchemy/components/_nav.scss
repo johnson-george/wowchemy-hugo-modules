@@ -65,10 +65,10 @@
   .dropdown-menu {
     font-size: #{$sta-font-size-small}px;
   }
-  .dropdown-menu:hover {
-    font-size: #{$sta-font-size}px;
+  .dropdown-menu:hover ~ .nav-link {
+    color: rgb(255,0,0);
   }
-
+  
   // Note: dedicated `dropdown-item-active` class to prevent ScrollSpy removing `active` class from language chooser.
   .dropdown-item.active,
   .dropdown-item-active {
