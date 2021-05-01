@@ -72,9 +72,9 @@ fieldset:disabled a.btn {
     @include button-variant($sta-primary, $sta-primary);
 }
 
-//.dark .btn-primary {
-//    @include button-variant($sta-dark-primary, $sta-dark-primary);
-//}
+.dark .btn-primary {
+    @include button-variant($sta-dark-primary, $sta-dark-primary);
+}
 
 @each $color, $value in $theme-colors {
   .btn-outline-#{$color} {
