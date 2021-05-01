@@ -81,7 +81,7 @@
       color: rgba($sta-dark-menu-text, 1);
 
       &.active,
-      &:hover,
+      &:hover, li:hover,
       &:focus {
         color: $sta-dark-menu-text-active;
       }
