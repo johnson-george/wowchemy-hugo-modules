@@ -30,7 +30,7 @@
  **************************************************/
  
 .btn-primary .btn {
-    @include button-variant($sta-primary, $sta-primary);
+    @include button-variant($sta-dark-primary, $sta-dark-primary);
 }
 
 .dark .btn-primary .btn {
