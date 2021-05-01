@@ -45,10 +45,11 @@ ul.share li a {
   color: $sta-dark-menu-text;
 }
 
-.dark ul.share li:hover i {
-  color: $sta-dark-menu-text-active;
-}
-
 ul.share li:hover i {
   transform: scale(1.2);
+  color: $sta-menu-text-active;
+}
+
+.dark ul.share li:hover i {
+  color: $sta-dark-menu-text-active;
 }
