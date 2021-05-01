@@ -62,11 +62,19 @@ fieldset:disabled a.btn {
 // Alternate buttons
 //
 
-@each $color, $value in $theme-colors {
-  .btn-#{$color} {
-    @include button-variant($value, $value);
-  }
+//@each $color, $value in $theme-colors {
+//  .btn-#{$color} {
+//    @include button-variant($value, $value);
+//  }
+//}
+
+.btn-primary {
+    @include button-variant($sta-primary, $sta-primary);
 }
+
+//.dark .btn-primary {
+//    @include button-variant($sta-dark-primary, $sta-dark-primary);
+//}
 
 @each $color, $value in $theme-colors {
   .btn-outline-#{$color} {
