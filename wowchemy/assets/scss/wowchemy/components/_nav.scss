@@ -68,7 +68,7 @@
   }
   
   .dropdown-menu:hover ~ .nav-link {
-    color: rgb(255,0,0);
+    color: $sta-menu-text-active;
   }
 
   // Note: dedicated `dropdown-item-active` class to prevent ScrollSpy removing `active` class from language chooser.
@@ -98,6 +98,11 @@
       }
     }
   }
+  
+  .dropdown-menu:hover ~ .nav-link {
+    color: $sta-dark-menu-text-active;
+  }
+
   .dropdown-item.active,
   .dropdown-item-active {
     color: $sta-dark-menu-text-active !important;
