@@ -30,8 +30,8 @@ body.dark,
   }
   &:focus {
     background-color: rgb(68, 71, 90);
-    border-color: $sta-primary;
-    box-shadow: 0 0 0 0.2rem $sta-primary-dark;
+    border-color: $sta-dark-primary;
+    box-shadow: 0 0 0 0.2rem $sta-dark-primary-dark;
   }
 }
 
@@ -105,7 +105,7 @@ body.dark,
 }
 
 .dark .card .section-subheading a {
-  color: $sta-primary;
+  color: $sta-dark-primary;
   border-bottom: solid 1px transparent;
 }
 
