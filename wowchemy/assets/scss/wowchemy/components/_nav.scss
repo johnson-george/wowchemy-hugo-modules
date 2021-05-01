@@ -54,6 +54,10 @@
       &:focus {
         color: $sta-menu-text-active;
       }
+      
+      &:hover > a {
+        color: rgba(255,0,0,1);
+      }
 
       &.active {
         font-weight: bold !important;
@@ -64,9 +68,6 @@
 
   .dropdown-menu {
     font-size: #{$sta-font-size-small}px;
-    
-    &:hover > a{
-      color: rgb(255,0,0);
     }
   }
 
