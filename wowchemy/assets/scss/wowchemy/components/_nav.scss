@@ -27,6 +27,11 @@
     // For z-index compatibility with logo on mobile layout, otherwise nav-item can't be clicked when logo present.
     position: relative;
   }
+  
+  .nav-item.dropdown:hover > .nav-link::after {
+    color: rgba(255,0,0,0)
+  }
+  
   @include media-breakpoint-down(md) {
     height: 50px;
 
@@ -49,7 +54,7 @@
       color: rgba($sta-menu-text, 1);
 
       &.active,
-      &:hover, li:hover,
+      &:hover,
       &:focus {
         color: $sta-menu-text-active;
       }
@@ -81,7 +86,7 @@
       color: rgba($sta-dark-menu-text, 1);
 
       &.active,
-      &:hover, li:hover,
+      &:hover,
       &:focus {
         color: $sta-dark-menu-text-active;
       }
