@@ -51,12 +51,12 @@
       &.active,
       &:hover,
       &:focus {
-        color: $sta-menu-text;
+        color: $sta-menu-text-active;
       }
 
       &.active {
         font-weight: bold !important;
-        color: $sta-menu-text !important;
+        color: $sta-menu-text-active !important;
       }
     }
   }
