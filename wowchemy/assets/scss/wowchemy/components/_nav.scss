@@ -63,12 +63,8 @@
   }
 
   .dropdown-menu {
-    font-size: #{$sta-font-size-small}px;
+    font-size: #{$sta-font-size}px;
   }
-  
-.navbar.dropdown-menu:hover > .nav-link::after {
-  color: rgba(255,0,0,1)
-}
 
   // Note: dedicated `dropdown-item-active` class to prevent ScrollSpy removing `active` class from language chooser.
   .dropdown-item.active,
