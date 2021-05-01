@@ -42,7 +42,11 @@ ul.share li a {
 }
 
 .dark ul.share li a {
-  color: rgba(255, 255, 255, 0.84);
+  color: $sta-dark-menu-text;
+}
+
+.dark ul.share li:hover i {
+  color: $sta-dark-menu-text-active;
 }
 
 ul.share li:hover i {
