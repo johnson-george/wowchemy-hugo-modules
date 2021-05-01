@@ -2,10 +2,6 @@
  *  Dark themed components
  **************************************************/
  
- .dark .btn-primary {
-    @include button-variant($sta-dark-primary, $sta-dark-primary);
-}
-
 .dark .article-title a {
   color: #fff;
 }
