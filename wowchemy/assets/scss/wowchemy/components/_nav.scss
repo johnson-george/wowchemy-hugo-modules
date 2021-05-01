@@ -49,7 +49,7 @@
       color: rgba($sta-menu-text, 1);
 
       &.active,
-      &:hover,
+      &:hover, li:hover,
       &:focus {
         color: $sta-menu-text-active;
       }
