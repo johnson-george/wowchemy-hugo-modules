@@ -54,10 +54,6 @@
       &:focus {
         color: $sta-menu-text-active;
       }
-      
-      &:hover > a {
-        color: rgba(255,0,0,1);
-      }
 
       &.active {
         font-weight: bold !important;
@@ -68,6 +64,10 @@
 
   .dropdown-menu {
     font-size: #{$sta-font-size-small}px;
+  }
+  
+  &:hover > a {
+    color: rgba(255,0,0,1);
   }
 
   // Note: dedicated `dropdown-item-active` class to prevent ScrollSpy removing `active` class from language chooser.
