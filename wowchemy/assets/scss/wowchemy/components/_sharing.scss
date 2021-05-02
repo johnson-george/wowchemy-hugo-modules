@@ -50,14 +50,6 @@ ul.share li:hover i {
   color: $sta-menu-text-active;
 }
 
-ul.share li:focus i {
-  color: $sta-menu-text;
-}
-
 .dark ul.share li:hover i {
   color: $sta-dark-menu-text-active;
-}
-
-.dark ul.share li:focus i {
-  color: $sta-dark-menu-text;
 }
