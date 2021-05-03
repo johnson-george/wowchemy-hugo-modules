@@ -20,7 +20,7 @@
 
 .dark .author-card .card-title,
 .dark .author-card .card-title a {
-  color: rgba(255, 255, 255, 0.84);
+  color: $sta-light-grey;
 }
 
 .author-card p {
@@ -45,5 +45,5 @@
 }
 
 .dark .author-card .card-text {
-  color: rgba(255, 255, 255, 0.84);
+  color: $sta-light-grey;
 }
