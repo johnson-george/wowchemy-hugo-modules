@@ -137,6 +137,12 @@ body.dark,
   color: $sta-light-grey;
 }
 
+.dark .badge-light:not(:disabled):not(.disabled).active:focus,
+.dark .badge-light:not(:disabled):not(.disabled):active:focus,
+.show > .dark .badge-light.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem $sta-dark-primary-light;
+}
+
 .dark .btn-primary,
 .dark .btn.btn-primary.active {
   color: initial;
