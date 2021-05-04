@@ -8,7 +8,7 @@
 
 .exp-company {
   font-weight: normal !important;
-  text-transform: none !important;
+  text-transform: none !impdiortant;
 }
 
 .exp-meta {
@@ -22,7 +22,7 @@
 }
 
 .dark .experience .text-muted {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: $sta-light-grey !important;
 }
 
 .dark .experience .card-text,
