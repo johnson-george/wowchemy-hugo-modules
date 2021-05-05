@@ -130,12 +130,12 @@ body.dark,
 .dark .badge-light[href]:focus,
 .dark .badge-light[href]:hover {
   background: lighten(rgba(52, 58, 64, 1), 10%);
+  box-shadow: none;
 }
 
 .dark .badge-light:not(:disabled):not(.disabled).active:focus,
 .dark .badge-light:not(:disabled):not(.disabled):active:focus,
-.dark .badge-light:not(:disabled):not(.disabled).active,
-.dark .badge-light:not(:disabled):not(.disabled):active,
+.dark .badge-light:not(:disabled):not(.disabled):focus,
 .show > .dark .badge-light.dropdown-toggle:focus {
   box-shadow: none;
 }
