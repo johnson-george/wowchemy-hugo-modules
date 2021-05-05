@@ -134,6 +134,8 @@ body.dark,
 
 .dark .badge-light:not(:disabled):not(.disabled).active:focus,
 .dark .badge-light:not(:disabled):not(.disabled):active:focus,
+.dark .badge-light:not(:disabled):not(.disabled).active,
+.dark .badge-light:not(:disabled):not(.disabled):active,
 .show > .dark .badge-light.dropdown-toggle:focus {
   box-shadow: none;
 }
