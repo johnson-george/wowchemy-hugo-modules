@@ -132,6 +132,12 @@ body.dark,
   background: lighten(rgba(52, 58, 64, 1), 10%);
 }
 
+.dark .badge-light:not(:disabled):not(.disabled).active:focus,
+.dark .badge-light:not(:disabled):not(.disabled):active:focus,
+.show > .dark .badge-light.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
 .dark a.badge:focus,
 .dark a.badge:hover {
   color: $sta-light-grey;
