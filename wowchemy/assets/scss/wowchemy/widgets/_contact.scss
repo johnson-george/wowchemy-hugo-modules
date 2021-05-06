@@ -7,6 +7,7 @@
 }
 
 .wg-contact .fa-li {
+  color: $sta-dark-grey;
   position: absolute;
   left: -3.14285714rem; /* Negative of `.wg-contact .fa-ul` margin. */
   width: 2rem; /* Match `fa-2x` icon size. */
