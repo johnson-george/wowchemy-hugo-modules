@@ -4,8 +4,8 @@
 
 .badge-light {
   border: none;
-  color: rgba(0, 0, 0, 0.68);
-  background: rgba(0, 0, 0, 0.05);
+  color: $sta-dark-grey;
+  background: rgba(0, 0, 0, 0.1);
   font-weight: normal;
   border-radius: 3px;
   padding: 5px 10px;
@@ -19,7 +19,7 @@
 
 .badge-light[href]:focus,
 .badge-light[href]:hover {
-  background: rgba(0, 0, 0, 0.1);
+  background: darken(rgba(0, 0, 0, 0.1),10%);
 }
 
 a.badge:focus,

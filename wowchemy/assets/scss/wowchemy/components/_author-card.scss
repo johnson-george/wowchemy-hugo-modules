@@ -15,7 +15,7 @@
 }
 
 .author-card .card-title a {
-  color: rgba(0, 0, 0, 0.84);
+  color: $sta-dark-grey;
 }
 
 .dark .author-card .card-title,
@@ -39,7 +39,7 @@
 }
 
 .author-card .card-text {
-  color: rgba(0, 0, 0, 0.72);
+  color: $sta-dark-grey;
   font-size: 0.8rem;
   margin-bottom: 4px;
 }
