@@ -87,6 +87,10 @@
   overflow-x: hidden;
 }
 
+.dark #search-box::before {
+  color: rgb(154,155,160);
+}
+
 .dark #search-query {
   background-color: $sta-dark-background;
 }
