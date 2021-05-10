@@ -5,7 +5,7 @@
 html {
   font-family: $sta-font-body, sans-serif;
   font-size: #{$sta-font-size-small}px;
-  color: rgba(0, 0, 0, 0.8);
+  color: $sta-dark-grey;
   line-height: 1.65;
 
   // Offset anchor scrolling by height of desktop fixed header.
