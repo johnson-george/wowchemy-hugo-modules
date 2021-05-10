@@ -9,7 +9,6 @@
 }
 
 .navbar {
-  color: $sta-dark-grey;
   height: 70px;
   background: $sta-menu-primary;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
@@ -158,6 +157,7 @@
 
 .navbar-brand {
   // Set v-padding to 5px to align with 50/70px responsive max navbar heights.
+  color: $sta-light-grey;
   padding-top: 5px;
   padding-bottom: 5px;
   font-weight: bold;
