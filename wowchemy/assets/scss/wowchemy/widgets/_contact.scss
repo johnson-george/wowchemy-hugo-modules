@@ -15,6 +15,10 @@
   text-align: center;
 }
 
+.dark .wg-contact .fa-li {
+  color: $sta-off-white;
+}
+
 .wg-contact li {
   padding-top: 0.8rem; /* Align text with bottom of `fa-2x` icon. */
   margin-bottom: 0.3rem;
