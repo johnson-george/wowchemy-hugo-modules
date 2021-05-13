@@ -69,7 +69,6 @@
 // Search box in modal
 
 #search-box {
-  color: rgb(255,255,255);
   position: relative; /* Required for search icon positioning. */
   margin-bottom: 0.5rem;
 }
@@ -94,7 +93,7 @@
 
 .dark #search-query {
   background-color: $sta-dark-background;
-  color: rgb(255,255,255);
+  color: rgb(255,0,0);
 }
 
 #search-box #search-query {
@@ -106,6 +105,10 @@
   height: 1rem;
   font-size: 0.8rem;
   color: $sta-dark-grey;
+}
+
+.dark #search-box #search-query {
+  color: rgb(255,255,255);
 }
 
 .form-control:focus {
