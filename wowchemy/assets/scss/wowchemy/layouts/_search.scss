@@ -79,7 +79,8 @@
   content: '\f002';
   font-size: 1rem;
 //  opacity: 0.5;
-  color: rgb(117,117,117);
+//  color: rgb(117,117,117);
+  color: rgba(0,0,0,0.54);
   line-height: 1rem;
   position: absolute;
   left: 0.7rem;
@@ -93,7 +94,6 @@
 
 .dark #search-query {
   background-color: $sta-dark-background;
-  color: rgb(255,0,0);
 }
 
 #search-box #search-query {
