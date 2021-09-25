@@ -130,12 +130,12 @@ body.dark,
 
 .dark .badge-light {
   color: $sta-light-grey;
-  background: rgba(52, 58, 64, 1);
+  background: rgba(50, 52, 64, 1);
 }
 
 .dark .badge-light[href]:focus,
 .dark .badge-light[href]:hover {
-  background: lighten(rgba(52, 58, 64, 1), 10%);
+  background: lighten(rgba(50, 52, 64, 1), 10%);
   box-shadow: none;
 }
 
