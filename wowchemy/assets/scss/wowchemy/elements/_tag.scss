@@ -19,7 +19,7 @@
 
 .badge-light[href]:focus,
 .badge-light[href]:hover {
-  background: darken(rgba(229, 229, 229, 1),10%);
+  background: $sta-light-grey;
 }
 
 a.badge:focus,
