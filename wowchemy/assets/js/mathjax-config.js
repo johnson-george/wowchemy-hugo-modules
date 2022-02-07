@@ -20,8 +20,8 @@ window.MathJax = {
     load: ['[tex]/noerrors'],
   },
   styles: {
-    ".MathJax_Display, .MJXc-display, .mjx-chtml, .MathJax_SVG_Display": {
-      "text-align": "left"
+    ".MathJax, .MathJax_Display, .MJXc-display, .mjx-chtml, .MathJax_SVG_Display": {
+      "text-align": "left !important"
     }
   }
 };
