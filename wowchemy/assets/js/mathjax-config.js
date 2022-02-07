@@ -16,10 +16,12 @@ window.MathJax = {
     processEscapes: false,
     packages: {'[+]': ['noerrors']},
   },
-  "HTML-CSS": {
-    styles: {".MathJax": {color: "#CCCCCC ! important"}}
-  }
   loader: {
     load: ['[tex]/noerrors'],
   },
+  styles: {
+    ".MathJax_Display": {
+      "text-align": "left"
+    }
+  }
 };
