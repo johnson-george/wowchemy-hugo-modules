@@ -16,6 +16,9 @@ window.MathJax = {
     processEscapes: false,
     packages: {'[+]': ['noerrors']},
   },
+  "HTML-CSS": {
+    styles: {".MathJax": {color: "#CCCCCC ! important"}}
+  }
   loader: {
     load: ['[tex]/noerrors'],
   },
