@@ -19,9 +19,12 @@ window.MathJax = {
   loader: {
     load: ['[tex]/noerrors'],
   },
-  styles: {
-    ".MathJax, .MathJax_Display, .MJXc-display, .mjx-chtml, .MathJax_SVG_Display": {
-      "text-align": "left !important"
-    }
+  chtml: {
+    displayAlign: "left"
   }
+//  styles: {
+//    ".MathJax, .MathJax_Display, .MJXc-display, .mjx-chtml, .MathJax_SVG_Display": {
+//      "text-align": "left !important"
+//    }
+//  }
 };
