@@ -19,12 +19,12 @@ window.MathJax = {
   loader: {
     load: ['[tex]/noerrors'],
   },
-  chtml: {
-    displayAlign: "left"
-  }
-//  styles: {
-//    ".MathJax, .MathJax_Display, .MJXc-display, .mjx-chtml, .MathJax_SVG_Display": {
-//      "text-align": "left !important"
-//    }
+//  chtml: {
+//    displayAlign: "left"
 //  }
+  styles: {
+    "mjx-container[display="true"]": {
+      "text-align": "left"
+    }
+  }
 };
