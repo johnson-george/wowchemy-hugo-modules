@@ -20,7 +20,7 @@ window.MathJax = {
     load: ['[tex]/noerrors'],
   },
   styles: {
-    ".MathJax_Display": {
+    ".MathJax_Display, .MJXc-display, .mjx-chtml, .MathJax_SVG_Display": {
       "text-align": "left"
     }
   }
