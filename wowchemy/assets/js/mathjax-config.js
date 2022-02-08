@@ -19,12 +19,8 @@ window.MathJax = {
   loader: {
     load: ['[tex]/noerrors'],
   },
-//  chtml: {
-//    displayAlign: "left"
-//  }
-  styles: {
-    "mjx-container": {
-      color: "#CC0000"
-    }
+  chtml: {
+    displayAlign: "left",
+    styles: { "mjx-container": {color: "#CC0000"}},
   }
 };
