@@ -23,8 +23,8 @@ window.MathJax = {
 //    displayAlign: "left"
 //  }
   styles: {
-    "mjx-container[display="true"]": {
-      "text-align": "left"
+    "mjx-container": {
+      color: "#CC0000"
     }
   }
 };
