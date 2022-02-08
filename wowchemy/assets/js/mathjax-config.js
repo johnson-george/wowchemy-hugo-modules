@@ -21,6 +21,7 @@ window.MathJax = {
   },
   chtml: {
     displayAlign: "left",
-    styles: { "mjx-container": {color: "#CC0000"}},
+    styles: { "mjx-container[jax="CHTML"][display="true"]":
+      {margin: 10em 0;}},
   }
 };
