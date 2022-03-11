@@ -72,7 +72,7 @@
     {{ $mathjax_config := resources.Get "js/mathjax-config.js" }}
     <style>
     mjx-container[jax="CHTML"][display="true"] {
-      text-align: right;
+      text-align: left;
     }
     </style>
     <script src="{{ $mathjax_config.RelPermalink }}"></script>
