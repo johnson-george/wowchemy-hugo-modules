@@ -70,12 +70,12 @@
   {{/* Config LaTeX math rendering. */}}
   {{ if or .Params.math site.Params.math }}
     {{ $mathjax_config := resources.Get "js/mathjax-config.js" }}
+    <script src="{{ $mathjax_config.RelPermalink }}"></script>
     <style>
     mjx-container[jax="CHTML"][display="true"] {
       text-align: left;
     }
     </style>
-    <script src="{{ $mathjax_config.RelPermalink }}"></script>
   {{ end }}
 
   {{/* Attempt to load local vendor CSS, otherwise load from CDN. */}}
