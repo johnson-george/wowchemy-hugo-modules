@@ -50,7 +50,7 @@
                 {{ if .date_end}}
                   {{ (time .date_end).Format ($page.Params.date_format | default "January 2006") }}
                 {{else}}
-                  {{ i18n "present" | default "Present" }}
+                  {{ }}
                 {{end}}
                 {{with .location}}
                   <span class="middot-divider"></span>
