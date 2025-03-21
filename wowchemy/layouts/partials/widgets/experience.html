@@ -46,9 +46,9 @@
                 {{- with .company_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{.company | markdownify | emojify}}{{with .company_url}}</a>{{end -}}
               </div>
               <div class="text-muted exp-meta">
-                {{.date_start}}
+                {{.date_start }}
                 {{ if .date_end}}
-                  {{ – .date_end}}
+                  – {{.date_end}}
                 {{end}}
                 {{with .location}}
                   <span class="middot-divider"></span>
